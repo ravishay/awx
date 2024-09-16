@@ -5,3 +5,7 @@
     - name: Hello Message
       debug:
         msg: "Hello Raz 2"
+
+    - name: sleep
+      shell:
+        cmd: sleep 60
